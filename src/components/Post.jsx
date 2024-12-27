@@ -1,12 +1,14 @@
-
+import classes from './Post.module.css'
 import React from 'react'
 
-const names = ['waseem', "saif"]
+const Post = (props) => {
 
-const Post = () => {
-    const choosenNames = Math.random() >= 0.5 ? names[0] : names[1] 
   return (
-    <div>{choosenNames}</div>
+    <div>
+      <h1 className={classes.id}>{props.id}</h1>
+      <h2 className={classes.author}>{props.author}</h2>
+      <h2 className={classes.comment}>{props.comment}</h2>
+    </div>
   )
 }
 
