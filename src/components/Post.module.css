@@ -1,17 +1,24 @@
-.id{
-    font-size: 1rem;
-    color: brown;
-    font-weight: bold;
+.container {
+    height: 250px;
+    width: 400px;
+    border: 2px solid rgb(0, 238, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
 }
 
-.author{
+
+.author {
     font-size: 2rem;
-    color: blue;
+    color: rgb(255, 0, 230);
     font-weight: bold;
 }
 
-.comment{
-    font-size: 3rem;
-    color: gray;
+.comment {
+    font-size: 1.9rem;
+    color: rgb(187, 0, 255);
     font-weight: bold;
 }
