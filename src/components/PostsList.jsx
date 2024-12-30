@@ -8,9 +8,9 @@ export const PostsList = () => {
         <div >
             <NewPost />
             <ul className={styles.posts}>
-                <Post author="saif" comment="i am a software devloper" />
-                <Post author="adnan" comment="hahahahahahahahaha" />
-                <Post author="waseem" comment="I am a frontend developer" />
+                <Post author="saif" body="i am a software devloper" />
+                <Post author="adnan" body="hahahahahahahahaha" />
+                <Post author="waseem" body="I am a frontend developer" />
               
             </ul>
         </div>
