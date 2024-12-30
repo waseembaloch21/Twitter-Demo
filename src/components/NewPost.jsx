@@ -11,6 +11,10 @@ function NewPost() {
         <label htmlFor="name">Your name</label>
         <input type="text" id="name" required />
       </p>
+      <div className={classes.actions}>
+        <button type="button">Cancel</button>
+        <button type="submit">Submit</button>
+      </div>
     </form>
   );
 }
