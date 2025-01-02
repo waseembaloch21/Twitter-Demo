@@ -4,10 +4,10 @@ import React from 'react'
 const Post = (props) => {
 
   return (
-    <div className={classes.container}>
+    <div className={classes.post}>
     <li >
       <h2 className={classes.author}>{props.author}</h2>
-      <h2 className={classes.comment}>{props.comment}</h2>
+      <h2 className={classes.text}>{props.body}</h2>
     </li>
     </div>
   )
